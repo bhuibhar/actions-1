@@ -10,9 +10,11 @@ jobs:
 
             - name: List files
               run: ls
-
-            - name: read file
-              run: cat README.md
-            
+              
             - name: checkout repository
               uses: actions/checkout@v4
+
+            - name: read README
+              run: cat README.md
+            
+            
