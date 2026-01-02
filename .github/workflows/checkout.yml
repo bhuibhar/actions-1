@@ -14,5 +14,5 @@ jobs:
             - name: read file
               run: cat README.md
             
-            - name: Checkout repository
+            - name: checkout repository
               uses: actions/checkout@v4
