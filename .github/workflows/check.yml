@@ -10,8 +10,8 @@ jobs:
 
             - name: List files
               run: ls
-              
-            - name: checkout repository
+
+            - name: check repository
               uses: actions/checkout@v4
 
             - name: read README
