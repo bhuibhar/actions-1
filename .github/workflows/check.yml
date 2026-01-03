@@ -9,7 +9,7 @@ jobs:
               run: echo "my first github actions job"
 
             - name: List files
-              run: ls
+              run: ls -ltra
 
             - name: check repository
               uses: actions/checkout@v4
